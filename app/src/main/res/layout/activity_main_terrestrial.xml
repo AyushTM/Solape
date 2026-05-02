@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivityTerrestrial">
+
+    <Button
+        android:id="@+id/mercury"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@drawable/iconmercury"
+        android:onClick="openMercury"
+        android:text="@string/MercuryIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/venus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/venus"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@drawable/iconvenus"
+        android:onClick="openVenus"
+        android:text="@string/VenusIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mercury"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/EarthD"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:drawableTop="@drawable/iconearth"
+        android:onClick="openEarth"
+        android:text="@string/EarthIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/mercury"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mercury"
+        app:layout_constraintTop_toBottomOf="@+id/mercury"
+        app:srcCompat="@drawable/iconearth" />
+
+    <Button
+        android:id="@+id/mars"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:drawableTop="@drawable/iconmars"
+        android:onClick="openMars"
+        android:text="@string/MarsIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/venus"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/venus"
+        app:layout_constraintTop_toBottomOf="@+id/venus" />
+
+    <Button
+        android:id="@+id/quizT"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:drawableTop="@drawable/quiz"
+        android:onClick="openQuizT"
+        android:text="@string/QuizIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/EarthD"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/EarthD"
+        app:layout_constraintTop_toBottomOf="@+id/EarthD" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

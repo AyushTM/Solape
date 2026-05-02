@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivityIceGiants">
+
+    <Button
+        android:id="@+id/uranus"
+        android:layout_width="150dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="36dp"
+        android:onClick="openUranus"
+        android:drawableTop="@drawable/iconuranus"
+        android:text="@string/UranusIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/neptune"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/neptune"
+        android:layout_width="150dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="36dp"
+        android:onClick="openNeptune"
+        android:drawableTop="@drawable/iconneptune"
+        android:text="@string/NeptuneIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/uranus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quizI"
+        android:layout_width="150dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="12dp"
+        android:onClick="openQuizI"
+        android:drawableTop="@drawable/quiz"
+        android:text="@string/QuizIconText"
+        app:backgroundTint="#26FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/uranus"
+        app:layout_constraintStart_toStartOf="@+id/uranus"
+        app:layout_constraintTop_toBottomOf="@+id/uranus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

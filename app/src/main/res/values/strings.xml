@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">SOLAPE</string>
+    <string name="mercury">Mercury</string>
+    <string name="MercuryD">⑴ Mercury is the smallest Planet in our Solar System. \n \n
+        ⑵ It has the shortest orbit in the solar system. \n \n
+        ⑶ It has a thin atmosphere, which causes it to swing between burning and freezing temperatures. \n \n
+        ⑷ It is also a dense planet, composed mostly of iron and nickel with an iron core. \n \n
+        ⑸ It takes 88 days to travel around the Sun. \n \n
+        ⑹ It has an average distance of 58 million km to the Sun. \n \n
+        ⑺ It has 0 moons. \n \n
+    </string>
+    <string name="EarthD">⑴ Earth is the largest of the terrestrial planets. \n \n
+        ⑵ The Earth has formed approximately 4.54 billion years ago. \n \n
+        ⑶ It is the only known planet to support life. \n \n
+        ⑷ The Earth take 24 hours to rotate. \n \n
+        ⑸ It takes 365 days to travel around the Sun. \n \n
+        ⑹ It is an only Planet there are living beings. \n \n
+        ⑺ It has an average distance of 149.9 million km to the Sun. \n \n
+        ⑻ It has 1 moon. \n \n
+    </string>
+    <string name="VenusD">⑴ Venus is the hottest planet in the solar system. \n \n
+        ⑵ It has carbon dioxide in the atmosphere. \n \n
+        ⑶ There are extensive lava flows. \n \n
+        ⑷ Venus is about the same size as earth. \n \n
+        ⑸ It has an average distance of 108 million km to the Sun. \n \n
+        ⑹ It takes 255 days to travel around the Sun. \n \n
+        ⑺ It has 0 moons. \n \n
+    </string>
+    <string name="MarsD">⑴ Mars has the largest mountain in the solar system. \n \n
+        ⑵ It is known to have water ice and organics-some of the ingredients for living things. \n \n
+        ⑶ It is less dense than Earth and has a smaller magnetic. \n \n
+        ⑷ It has two small moons, Phobos and Deimos. \n \n
+        ⑸ It might have supported life 3.7 billion ago. \n \n
+        ⑹ It takes 687 Earth days to travel around the Sun. \n \n
+        ⑺ It has an average distance of 246.31 million km to the Sun. \n \n
+        ⑻ It has 2 moon. \n \n
+    </string>
+    <string name="JupiterD">⑴ Jupiter is the fifth planet from the Sun and the largest in the solar system. \n \n
+        ⑵ It has a radius 11 times the size of the Earth. \n \n
+        ⑶ Its atmosphere consists mostly of hydrogen, helium, ammonia and methane. \n \n
+        ⑷ It is visible with the naked eye and was known by the ancients. \n \n
+        ⑸ It has an average distance of 778.5 million km to the Sun. \n \n
+        ⑹ It takes 4333 days to travel around the Sun. \n \n
+        ⑺ It has 53 confirmed and total 79 moons. \n \n
+    </string>
+    <string name="SaturnD">⑴ Saturn is the sixth planet from the Sun and the second-largest in the solar system. \n \n
+        ⑵ It has a radius of nine and a half times the Earth. \n \n
+        ⑶ It is a gas-giant planet and therefore does not have a solid surface like Earth. \n \n
+        ⑷ It is over 95 times more massive. \n \n
+        ⑸ It has an average distance of 1.434 billion km to the Sun. \n \n
+        ⑹ It takes 10,759 days to travel around the Sun. \n \n
+        ⑺ It has 53 confirmed and total 82 moons. \n \n
+    </string>
+    <string name="UranusD">⑴ Uranus is the seventh planet from the Sun. \n \n
+        ⑵ It has the third-largest planetary radius and fourth-largest planetary mass in the solar system. \n \n
+        ⑶ It has a ring system, a magnetosphere, and numerous moons. \n \n
+        ⑷ It has an average distance of 2.871 billion km to the Sun. \n \n
+        ⑸ It takes 30,687 days to travel around the Sun. \n \n
+        ⑹ It has 27 moons. \n \n
+
+    </string>
+    <string name="NeptuneD">⑴ Neptune is the eighth and farthest known Solar planet from the Sun. \n \n
+        ⑵ In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet and the densest giant planet. \n \n
+        ⑶ It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. \n \n
+        ⑷ It has an average distance of 4.495  billion km to the Sun. \n \n
+        ⑸ It takes 60,190 days to travel around the Sun. \n \n
+        ⑹ It has 14 moons. \n \n
+    </string>
+    <string name="SunD">⑴ The sun is 4.6 billion years old. \n \n
+        ⑵ The sun has a diameter of 1,392,684 km and an equatorial distance of 4,370,005.6 km. \n \n
+        ⑶ The Sun is as bright as 4 trillion 100-watt light bulbs. Imagine paying for that energy bill! \n \n
+        ⑷ The Sunlight takes 8 minutes to reach Earth. \n \n
+        ⑸ The Sun rotates on its axis once in about 27 days. \n \n
+        ⑹ The Sun accounts for 99.86% of the mass in the solar system. \n \n
+        ⑺ There wouldn\'t be any life on Earth without the Sun. \n \n
+        ⑻ The sun is 93 million miles away from the Earth. \n \n
+        ⑼ Like the Earth, the sun has layers. But unlike the Earth, the sun is entirely gaseous; there is no solid surface. \n \n
+        ⑽ The temperature at the very centre of the Sun is about 27 million degrees Fahrenheit (F). \n \n
+    </string>
+    <string name="PlutoD">⑴ Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. \n \n
+        ⑵ Pluto is named after the Roman god of the underworld. \n \n
+        ⑶ Pluto was reclassified from a planet to a dwarf planet in 2006. \n \n
+        ⑷ Pluto was discovered on February 18th, 1930 by the Lowell Observatory. \n \n
+        ⑸ Pluto is one-third of water. \n \n
+    </string>
+    <string name="AsteroidBeltD">⑴ The asteroid belt (sometimes referred to as the main asteroid belt) orbits between Mars and Jupiter. \n \n
+        ⑵ It contains a great many solid, irregularly shaped bodies, of many sizes but much smaller than planets, called asteroids or minor planets. \n \n
+        ⑶ Most asteroids are in a “belt”. \n \n
+    </string>
+
+    // Below codes are For Terrestrial Quiz
+    <string name="QuizT1">1. How many planets are in the terrestrial planets?</string>
+    <string name="QuizT2">2. How many days does Earth take to travel around the sun?</string>
+    <string name="QuizT3">3. Which is the biggest Terrestrial planet?</string>
+    <string name="QuizT4">4. Which planet is the hottest planet?</string>
+    <string name="QuizT5">5. How much distance is between Mercury to Sun?</string>
+    <string name="QuizT6">6. Which planet has the shortest orbit in the Terrestrial planet?</string>
+    <string name="QuizT7">7. Which planet was formed approximately 4.54 billion years ago.</string>
+    <string name="QuizT8">8. Which planet is the only planet that has life?</string>
+    <string name="QuizT9">9. Which planet is the same size as Earth?</string>
+    <string name="QuizT10">10. Terrestrial planets are made of which material?</string>
+
+    <string name="QuizT1o1">2</string>
+    <string name="QuizT1o2">3</string>
+    <string name="QuizT1o3">4</string>
+    <string name="QuizT1o4">5</string>
+
+    <string name="MercuryIconText">Mercury</string>
+    <string name="VenusIconText">Venus</string>
+    <string name="EarthIconText">Earth</string>
+    <string name="MarsIconText">Mars</string>
+    <string name="QuizIconText">Quiz</string>
+    <string name="JupiterIconText">Jupiter</string>
+    <string name="SaturnIconText">Saturn</string>
+    <string name="UranusIconText">uranus</string>
+    <string name="NeptuneIconText">Neptune</string>
+    <string name="SunIconText">Sun</string>
+    <string name="PlutoIconText">pluto</string>
+    <string name="AsteroidBeltIconText">asteroid belt</string>
+    <string name="Home_page_btn">Continue</string>
+
+</resources>
