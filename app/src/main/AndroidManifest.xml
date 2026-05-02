@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.solape">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SOLAPE">
+        <activity
+            android:name=".MainActivityQuizC"
+            android:exported="true"
+            android:label="QUIZ"
+            android:parentActivityName=".MainActivityCelestial" />
+        <activity
+            android:name=".MainActivityAsteroidBelt"
+            android:exported="true"
+            android:label="ASTEROID BELT"
+            android:parentActivityName=".MainActivityCelestial" />
+        <activity
+            android:name=".MainActivityPluto"
+            android:exported="true"
+            android:label="PLUTO"
+            android:parentActivityName=".MainActivityCelestial"/>
+        <activity
+            android:name=".MainActivitySun"
+            android:exported="true"
+            android:label="SUN"
+            android:parentActivityName=".MainActivityCelestial" />
+        <activity
+            android:name=".MainActivityCelestial"
+            android:exported="true"
+            android:label="CELESTIAL OBJECTS"
+            android:parentActivityName=".MainActivityPlanets" />
+        <activity
+            android:name=".MainActivityQuizI"
+            android:exported="true"
+            android:label="QUIZ"
+            android:parentActivityName=".MainActivityIceGiants" />
+        <activity
+            android:name=".MainActivityNeptune"
+            android:exported="true"
+            android:label="NEPTUNE"
+            android:parentActivityName=".MainActivityIceGiants" />
+        <activity
+            android:name=".MainActivityUranus"
+            android:exported="true"
+            android:label="URANUS"
+            android:parentActivityName=".MainActivityIceGiants" />
+        <activity
+            android:name=".MainActivityQuizG"
+            android:exported="true"
+            android:label="QUIZ"
+            android:parentActivityName=".MainActivityGasGiants" />
+        <activity
+            android:name=".MainActivitySaturn"
+            android:exported="true"
+            android:label="SATURN"
+            android:parentActivityName=".MainActivityGasGiants" />
+        <activity
+            android:name=".MainActivityJupiter"
+            android:exported="true"
+            android:label="JUPITER"
+            android:parentActivityName=".MainActivityGasGiants" />
+        <activity
+            android:name=".MainActivityQuizT"
+            android:exported="true"
+            android:label="QUIZ"
+            android:parentActivityName=".MainActivityTerrestrial" />
+        <activity
+            android:name=".MainActivityMars"
+            android:exported="true"
+            android:label="MARS"
+            android:parentActivityName=".MainActivityTerrestrial" />
+        <activity
+            android:name=".MainActivityEarth"
+            android:exported="true"
+            android:label="EARTH"
+            android:parentActivityName=".MainActivityTerrestrial" />
+        <activity
+            android:name=".MainActivityVenus"
+            android:exported="true"
+            android:label="VENUS"
+            android:parentActivityName=".MainActivityTerrestrial" />
+        <activity
+            android:name=".MainActivityMercury"
+            android:exported="true"
+            android:label="MERCURY"
+            android:parentActivityName=".MainActivityTerrestrial" />
+        <activity
+            android:name=".MainActivityIceGiants"
+            android:exported="true"
+            android:label="ICE GIANTS"
+            android:parentActivityName=".MainActivityPlanets" />
+        <activity
+            android:name=".MainActivityGasGiants"
+            android:exported="true"
+            android:label="GAS GIANTS"
+            android:parentActivityName=".MainActivityPlanets" />
+        <activity
+            android:name=".MainActivityTerrestrial"
+            android:exported="true"
+            android:label="TERRESTRIAL"
+            android:parentActivityName=".MainActivityPlanets" />
+        <activity
+            android:name=".MainActivityPlanets"
+            android:exported="true"
+            android:label="PLANETS" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
